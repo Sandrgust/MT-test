@@ -22,4 +22,13 @@
 `curl -SL https://github.com/docker/compose/releases/download/v2.11.0/docker-compose-linux-x86_64 -o $DOCKER_CONFIG/cli-plugins/docker-compose`  
 `chmod +x $DOCKER_CONFIG/cli-plugins/docker-compose`  
 
-# 
+Затем заходим в любую папку и клонируем репозиторий, новая директория будет с именем MT-test  
+Далее необходимо архив `data_vol.tar` скопировать в папку томов докера   
+У меня путь был `/var/snap/docker/common/var-lib-docker/volumes`   
+Затем распаковать его и на новую папку mt-test_grafana_data(mt-test - название папки где будет проект) поставить права  `chmod -R a+w mt-test_grafana_data/`  
+Далее заходим в папку нашего проекта и запусаем docker-compose up
+
+Grafana использует порт 3000 по стандарту
+Креды для входа админа admin admin
+Креды для входа гостя с правами viewer guest guest
+
