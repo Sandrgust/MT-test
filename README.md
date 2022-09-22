@@ -32,3 +32,7 @@
 Креды для входа админа `admin` `admin`  
 Креды для входа гостя с правами viewer `guest` `guest`  
 
+Если при входе вы не видите dashboard то нажмите на General  
+
+![image](https://user-images.githubusercontent.com/68644246/191825897-f2c83774-8386-4b2c-8491-3b2775f9b50e.png)  
+
